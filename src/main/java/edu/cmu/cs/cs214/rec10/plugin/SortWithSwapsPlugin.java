@@ -67,6 +67,9 @@ public class SortWithSwapsPlugin implements GamePlugin {
         }
     }
 
+    /**
+     * onNewMove is called when a new move is played.
+     */
     @Override
     public void onNewMove() {
         System.out.println("Status of game: at method onNewMove()");
